@@ -41,8 +41,7 @@ def remove_pairs():
             count += 1
     # convert list to string
     result = ''.join(lst)
-    logger.info('Function completed successfully')
-    return print(result)
+    print(result)
 
 
 if __name__ == '__main__':
